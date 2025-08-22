@@ -1,0 +1,15 @@
+{
+  "name": "trc20-demo-token",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "tronbox compile",
+    "migrate:shasta": "tronbox migrate --reset --network shasta",
+    "migrate:nile": "tronbox migrate --reset --network nile"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
